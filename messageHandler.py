@@ -23,13 +23,7 @@ Shall we go ahead and place it?
           'reply'  : reply}
 
 def helpMessage(context, witResponse):
-  reply = '''
-    Hi there. Looks like you're trying something I don't understand. This
-    prototype can only order default pizzas off the menu. Currently it's
-    restricted in several ways. It always sends as Jack, to the same
-    location, and doesn't allow sides or customisation. If you're stuck,
-    try typing something like, "I'd like to order a margharita."
-    '''
+  reply = '''Hi there. Looks like you're trying something I don't understand. This prototype  is currently restricted in several ways. It can only order default pizzas off the menu. It always sends as Jack, to the same location, and doesn't allow sides or customisation. If you're stuck, try typing something like, "I'd like to order a margharita."'''
   return {'context': context,
           'reply'  : reply}
 
